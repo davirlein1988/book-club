@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.4.1'
+ruby '2.5.1'
 gem 'carrierwave', '~> 1.0'
 gem 'redis-rails'
 gem 'sidekiq'
